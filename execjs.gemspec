@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "therubyracer"
   s.add_development_dependency "therubyrhino"
+  d.add_development_dependency "twostroke"
 
   s.authors = ["Sam Stephenson", "Josh Peek"]
   s.email   = ["sstephenson@gmail.com", "josh@joshpeek.com"]

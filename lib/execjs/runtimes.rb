@@ -40,6 +40,8 @@ module ExecJS
       :runner_path => ExecJS.root + "/support/jscript_runner.js",
       :encoding    => 'UTF-16LE' # CScript with //U returns UTF-16LE
     )
+    
+    Twostroke = TwostrokeRuntime.new
 
 
     def self.autodetect
